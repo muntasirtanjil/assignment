@@ -71,6 +71,7 @@ body {
 .future-section{
     padding: 32px;
     gap: 24px;
+    width: 400px ;
     
     
 }
@@ -167,10 +168,12 @@ body {
     color:#090909;
    
 }
-.box-description{
+.recent-box .box-description{
     font-size: 16px ;
-    color:black ;
+    color:rgb(40, 38, 38) ;
     padding-bottom: 20px ;
+    font-weight: 400 ;
+    
 }
 .read-btn{
     font-size: 18px;
@@ -181,4 +184,84 @@ body {
     border-style: none ;
     background-color: #006A50;
 
+}
+/* donate-section */
+.donate-section{
+    padding: 20px 80px 20px 80px ;
+}
+.donate-heading{
+    font-size: 40px ;
+    font-weight: bold ;
+    color: #0E0E0E;
+    text-align: center;
+}
+.donate-p{
+    font-size: 16px ;
+    font-weight: 400;
+    text-align: center;
+    color: #383838;
+    margin-bottom: 32px ;
+}
+
+
+ul {
+    display: flex ;
+    justify-content: space-evenly;
+    gap: 24px ;
+
+}
+ul li{
+    list-style: none ;
+    
+    
+
+
+}
+.btns{
+    
+    border: none ;
+    color: #FFFFFF;
+    font-size: 30px ;
+    font-weight: bold ;
+    color: #090909;
+    border-radius: 16px ;
+    padding: 30px  ;
+
+}
+.btns:hover{
+    background: #C6E4D6;
+}
+/* .li-btn{
+    background: #C6E4D6;
+
+} */
+.input{
+    width: 60%;
+    
+    margin: 0px auto ;
+    text-align: center;
+    display: block;
+    
+}
+.donate-btn{
+    display: block;
+    margin: 0px auto ;
+    padding: 17px 34px ;
+    background-color: #006A50;
+    color: white;
+    font-size: 18px ;
+    font-weight: 600px ;
+    border-radius: 8px ;
+    border: none ;
+
+}
+/* .btn-div{
+    width: 100%;
+    display: flex ;
+} */
+input{
+    width: 100%;
+    text-align: center;
+    border: none ;
+    padding: 8px ;
 }
