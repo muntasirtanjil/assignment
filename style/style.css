@@ -131,3 +131,54 @@ body {
     border-radius: 8px ;
 
 }
+/* recent section  */
+.recent-heading{
+    font-size: 40px ;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.recent-description{
+    font-weight: 400;
+    font-size: 16px ;
+    color: #343333;
+}
+.recent{
+    display: flex ;
+    background-color: #FFFFFF;
+    border-radius: 24px ;
+    padding: 48px ;
+    gap: 32px ;
+    max-height: 402px ;
+    margin-bottom: 24px ;
+}
+.satelite-img{
+    border-radius: 24px ;
+
+}
+.box-heading{
+    font-size: 32px ;
+    font-weight: bold ;
+    color: #343232;
+    margin: 0px ;
+    padding: 0px 0px 12px 0px  ;
+}
+.date-time{
+    font-size: 16px ;
+    color:#090909;
+   
+}
+.box-description{
+    font-size: 16px ;
+    color:black ;
+    padding-bottom: 20px ;
+}
+.read-btn{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding: 13px 26px ;
+    border-radius: 8px ;
+    border-style: none ;
+    background-color: #006A50;
+
+}
