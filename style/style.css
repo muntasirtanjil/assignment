@@ -165,7 +165,8 @@ body {
 }
 .date-time{
     font-size: 16px ;
-    color:#090909;
+    color:rgb(40, 38, 38) ;
+    font-weight: 400 ;
    
 }
 .recent-box .box-description{
@@ -226,17 +227,18 @@ ul li{
     color: #090909;
     border-radius: 16px ;
     padding: 30px  ;
+    border: 1px solid whitesmoke;
 
 }
 .btns:hover{
     background: #C6E4D6;
 }
-/* .li-btn{
+.li-btn{
     background: #C6E4D6;
 
-} */
+}
 .input{
-    width: 60%;
+    width: 80%;
     
     margin: 0px auto ;
     text-align: center;
@@ -255,10 +257,7 @@ ul li{
     border: none ;
 
 }
-/* .btn-div{
-    width: 100%;
-    display: flex ;
-} */
+
 input{
     width: 100%;
     text-align: center;
